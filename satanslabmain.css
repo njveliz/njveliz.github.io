@@ -1,0 +1,63 @@
+
+.a-paragraph
+{
+color:white;
+    font-style: italic;
+    text-align: center;
+}
+.b-paragraph
+{
+color:white;
+    font-style: italic;
+    text-align: center}
+.c-paragraph
+{
+color:white;
+    font-style: italic;
+    text-align: center}
+.d-paragraph
+{
+color:fuchsia;
+    font-style: italic;
+    text-align: center}
+
+h1
+{
+    
+    color:red;
+    font-style: italic;
+    text-align: center;
+    
+}
+h2
+{
+       
+    color:yellow;
+    font-style: italic;
+        text-align: center;
+
+}
+h3
+{ 
+    color:#8902ff;
+    font-style: italic;
+        text-align: center
+}
+h4
+{color: #8902ff;
+    font-style:italic;
+        text-align: center; margin: auto
+}
+body
+{
+    background-color: black;
+    text-align: center
+}
+
+p
+{
+    color: white;
+    font-style: italic;
+    text-align: center
+}
+a{ color: cyan}
