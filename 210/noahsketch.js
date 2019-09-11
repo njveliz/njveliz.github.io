@@ -1,13 +1,8 @@
-let img;
-
 function setup() {
 
     var cnv = createCanvas(800, 500);
     cnv.style('display', 'block');
-    cnv.parent('content'); //this puts my sketch in a div
-//    img = loadImage('space.jpg'); 
-}
-
+    cnv.parent('content'); 
 function draw() {
  background(251, 226, 53);
     
@@ -19,7 +14,7 @@ function draw() {
     translate(300,600);
     ellipse(110,-60,450,400);
     pop();
-    //
+    //torso
      fill(103, 215, 215);
     push();
     translate(300,300);
