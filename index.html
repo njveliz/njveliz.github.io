@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<title>Portfolio Site</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+            <h1><a href="index.html" id="logo">"Home is where <br> the heart is."</a></h1>
+            <button id="mb">mobile menu</button>
+            <nav>
+                <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="work.html">WORK</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+    <img src="assets/img/fun.gif" alt="Fun" style="width: 960px; height: 540px; display: flex;">
+    <div id="hero">
+		<div class="overlay">
+            <h1 style="color: yellow; font-style: italic;">Noah's Sketchbook</h1><div></div>
+			<p><a href="contact.html" class="btn">color me interested</a></p>
+		</div>
+	</div>
+	<div id="port">
+		<h1>Featured Portfolio</h1>
+        <br>
+		<p>The featured works of yours truly.</p>
+		<div class="container">
+			<div class="col c3">
+				<img src="assets/img/img1.jpg">
+				<h4>COMiCS!</h4>
+			</div>
+			<div class="col c3">
+				<img src="assets/img/img2.jpg">
+				<h4>ANiMATiON!</h4>
+			</div>
+			<div class="col c3">
+				<img src="assets/img/img3.jpg">
+				<h4>MUSiC!</h4>
+			</div>
+		</div>
+	</div>
+	<div id="cta">
+		<div class="overlay">
+			<h1>Contact<br>Me Today</h1>
+            <p>...for comissions and/or business inqueries.</p>
+			<p><a href="contact.html" class="btn">okay, sounds good</a></p>
+		</div>
+	</div>
+	
+	
+	<footer>
+		<p>&copy; 2019. All rights reserved. </p>
+	</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script> 
+         $('#mb').click(function(){
+    $('nav').slideToggle();
+    ));
+             $(window).resize(function(){
+                 if(window.innerWidth>499)
+    </script>
+</body>
+</html>
